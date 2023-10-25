@@ -39,51 +39,92 @@
     display: none;
 }
 
-.main__heroImageDiv {
+.main__heroImageSection {
     height: 274px;
     background: url(Images/main__heroImage.png);
     background-size: cover;
 }
 
-.heroImageDiv__heroImage {
-    width: 100%;
-    height: 100%;
-}
-
-
-.main__ctaButtonDiv {
+.main__ctaButtonSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 37px;
 }
 
-.ctaButtonDiv__button {
+.ctaButtonSection__button {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 308px;
     height: 66px;
     background-color: #8ACFE5;
+    border: 0;
     border-radius: 4px;
 }
 
-.ctaButtonDiv__button h2 {
+.ctaButtonSection__button__h3 {
     font-size: 24px;
     font-weight: 700;
     line-height: 28.13px;
 }
 
-.ctaButtonDiv__button.ctaButtonDiv__onlineButton {
+.ctaButtonSection__button.ctaButtonSection__onlineButton {
     background-color: white;
 }
 
-.ctaButtonDiv__button.ctaButtonDiv__onlineButton h2 {
+.ctaButtonSection__onlineButton__h3 {
     font-size: 16px;
     color: #36769D;
     font-weight: 700;
     text-decoration: underline;
 }
+
+.main__referenceSection {
+    margin-top: 51px;
+    margin-bottom: 55px; 
+}
+
+.main__referenceSection__div {
+    display: flex;
+    flex-direction: row;
+    width: 439px;
+    height: 139px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+
+.main__reference__div__portrait {
+    width: 73.34px;
+    height: 72px;
+    border-radius: 50px;
+}
+
+.main__referenceSection__div__text {
+    width: 343.26px;
+    margin-left: 22.4px;
+}
+
+.main__referenceSection__div__text__h3 {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28.13px;
+}
+
+.main__referenceSection__div__text__p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.09px;
+    margin-top: 5px;
+}
+
+.main__referenceSection__div.secondReference {
+    display: none;
+}
+
+
+/*next section should have top margin of 50px*/
 
 @media (min-width: 1200px) {
     .main__heroImageDiv {
