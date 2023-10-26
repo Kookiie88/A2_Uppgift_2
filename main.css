@@ -5,6 +5,8 @@
     font-family: 'roboto';
 }
 
+/*---------- Header section ----------*/
+
 .header {
     background: #011827;
     height: 144px;
@@ -39,11 +41,15 @@
     display: none;
 }
 
+/*---------- Hero section ----------*/
+
 .main__heroImageSection {
     height: 274px;
     background: url(Images/main__heroImage.png);
     background-size: cover;
 }
+
+/*---------- CTA button section ----------*/
 
 .main__ctaButtonSection {
     display: flex;
@@ -79,6 +85,8 @@
     text-decoration: underline;
 }
 
+/*---------- Reference section ----------*/
+
 .main__referenceSection {
     display: flex;
     justify-content: center;
@@ -89,10 +97,8 @@
 .main__referenceSection__div {
     display: flex;
     flex-direction: row;
-    width: 439px;
     height: 139px;
-    margin-left: 21px;
-    margin-right: 21px;
+    margin: 0px 21px;
 }
 
 .main__reference__div__portrait {
@@ -102,7 +108,6 @@
 }
 
 .main__referenceSection__div__text {
-    width: 342px;
     margin-left: 22px;
 }
 
@@ -122,7 +127,9 @@
     display: none;
 }
 
-.recommendedChallenges {
+/*---------- Recommended challenges section ----------*/
+
+.main__recommendedChallenges {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -135,8 +142,22 @@
     margin-bottom: 44px;
 }
 
+.recommendedChallenges__slider {
+    display: flex;
+    width: 100%;
+    height: 460px;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    gap: 30px;
+}
+
+.recommendedChallenges__slider::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
 .recommendedChallenges__slider___card {
-    width: 363px;
     height: 446px;
     display: flex;
     flex-direction: column;
@@ -144,8 +165,15 @@
     box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.1);
 }
 
+.recommendedChallenges__slider___card.cardOne {
+    margin-left: 52px; 
+}
+
+.recommendedChallenges__slider___card.cardThree {
+    margin-right: 52px; 
+}
+
 .recommendedChallenges__slider__card__heroImage {
-    width: 363px;
     height: 219px;
 }
 
@@ -161,7 +189,8 @@
 .recommendedChallenges__slider__card__bottom__rating {
     display: flex;
     flex-direction: row;
-    margin-top: 2px;
+    margin-top: 5px;
+    margin-bottom: 23px;
 }
 
 .recommendedChallenges__slider__card__bottom__rating__star {
@@ -177,15 +206,15 @@
 }
 
 .recommendedChallenges__slider__card__bottom__rating__description {
+    width: 328px;
+    height: 80px;
     font-size: 18px;
     font-weight: 400;
-    margin-top: 23px;
 }
 
 .recommendedChallenges__slider__card__bottom__buttonBox {
     display: flex;
     flex-direction: row-reverse;
-    margin-top: 16px;
 }
 
 .recommendedChallenges__slider__card__bottom__buttonBox__bookingButton {
@@ -197,6 +226,83 @@
     font-weight: 700;
     border: none;
     border-radius: 5px;
+}
+
+/*---------- Story section ----------*/
+
+.main__story {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #011827;
+    margin-top: 35px;
+}
+
+.main__story__h3 {
+    font-size: 28px;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    margin: 95px 21px 0px 21px;  
+}
+
+.main__story__button {
+    width: 308px;
+    height: 66px;
+    background: #011827;
+    border: 2px solid #8ACFE5;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #8ACFE5;
+    margin-top: 60px;
+}
+
+/*---------- Features section ----------*/
+
+.main__features__div__imgOne {
+    height: 300px;
+    background: url(Images/main__features__div__imgOne.png);
+    background-size: cover;
+}
+
+.main__features__div__imgTwo {
+    height: 300px;
+    background: url(Images/main__features__div__imgTwo.png);
+    background-size: cover;
+}
+
+.main__features__div__description {
+    height: 340px;
+    margin: 30px 20px;
+}
+
+.main__features__div__description.descriptionBoxTwo {
+    height: 400px;
+}
+
+.main__features__div__description__h2 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.main__features__div__description__p {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.main__features__div__description__button {
+    width: 308px;
+    height: 66px;
+    background: #E3170A;
+    font-size: 24px;
+    font-weight: 700;
+    color:white;
+    border-radius: 4px;
+    border: none;
 }
 
 @media (min-width: 1200px) {
