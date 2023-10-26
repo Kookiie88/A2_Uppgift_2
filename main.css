@@ -58,7 +58,7 @@
     margin-top: 37px;
 }
 
-.ctaButtonSection__button {
+.main__ctaButtonSection__button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,16 +69,16 @@
     border-radius: 4px;
 }
 
-.ctaButtonSection__button__h3 {
+.main__ctaButtonSection__button__h3 {
     font-size: 24px;
     font-weight: 700;
 }
 
-.ctaButtonSection__button.ctaButtonSection__onlineButton {
+.main__ctaButtonSection__button.main__ctaButtonSection__onlineButton {
     background-color: white;
 }
 
-.ctaButtonSection__onlineButton__h3 {
+.main__ctaButtonSection__onlineButton__h3 {
     font-size: 16px;
     color: #36769D;
     font-weight: 700;
@@ -136,13 +136,13 @@
     justify-content: center;
 }
 
-.recommendedChallanges__h2 {
+.main__recommendedChallanges__h2 {
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 44px;
 }
 
-.recommendedChallenges__slider {
+.main__recommendedChallenges__slider {
     display: flex;
     width: 100%;
     height: 460px;
@@ -152,12 +152,12 @@
     gap: 30px;
 }
 
-.recommendedChallenges__slider::-webkit-scrollbar {
+.main__recommendedChallenges__slider::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
 
-.recommendedChallenges__slider___card {
+.main__recommendedChallenges__slider___card {
     height: 446px;
     display: flex;
     flex-direction: column;
@@ -165,59 +165,59 @@
     box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.1);
 }
 
-.recommendedChallenges__slider___card.cardOne {
+.main__recommendedChallenges__slider___card.main__recommendedChallenges__slider___card__cardOne {
     margin-left: 52px; 
 }
 
-.recommendedChallenges__slider___card.cardThree {
+.main__recommendedChallenges__slider___card.main__recommendedChallenges__slider___card__cardThree {
     margin-right: 52px; 
 }
 
-.recommendedChallenges__slider__card__heroImage {
+.main__recommendedChallenges__slider__card__heroImage {
     height: 219px;
 }
 
-.recommendedChallenges__slider__card__bottom {
+.main__recommendedChallenges__slider__card__bottom {
     padding: 12px 17px; 
 }
 
-.recommendedChallenges__slider__card__bottom__h3 {
+.main__recommendedChallenges__slider__card__bottom__h3 {
     font-size: 28px;
     font-weight: 400;
 }
 
-.recommendedChallenges__slider__card__bottom__rating {
+.main__recommendedChallenges__slider__card__bottom__rating {
     display: flex;
     flex-direction: row;
     margin-top: 5px;
     margin-bottom: 23px;
 }
 
-.recommendedChallenges__slider__card__bottom__rating__star {
+.main__recommendedChallenges__slider__card__bottom__rating__star {
     width: 15px;
     height: 15px;
     margin-right: 9px;
 }
 
-.recommendedChallenges__slider__card__bottom__rating__participants {
+.main__recommendedChallenges__slider__card__bottom__rating__participants {
     font-size: 14px;
     font-weight: 400;
     margin-left: 5px;
 }
 
-.recommendedChallenges__slider__card__bottom__rating__description {
+.main__recommendedChallenges__slider__card__bottom__rating__description {
     width: 328px;
     height: 80px;
     font-size: 18px;
     font-weight: 400;
 }
 
-.recommendedChallenges__slider__card__bottom__buttonBox {
+.main__recommendedChallenges__slider__card__bottom__buttonBox {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.recommendedChallenges__slider__card__bottom__buttonBox__bookingButton {
+.main__recommendedChallenges__slider__card__bottom__buttonBox__bookingButton {
     width: 179px;
     height: 44px;
     background-color: #E3170A;
