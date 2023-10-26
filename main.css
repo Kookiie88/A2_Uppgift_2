@@ -12,53 +12,53 @@
     height: 144px;
 }
 
-.header__DivLogoAndCompanyName {
+.DivLogoAndCompanyName {
     display: flex;
     flex-direction: row;
 }
 
-.header__DivLogoAndCompanyName__logo {
+.DivLogoAndCompanyName__logo {
     width: 128px;
     height: 82px;
     margin-top: 26px;
     margin-left: 27px;
 }
 
-.header__DivLogoAndCompanyName__companyName {
+.DivLogoAndCompanyName__companyName {
     width: 78px;
     height: 84px;
     margin-top: 25px;
     margin-left: 13px;
 }
 
-.header__DivLogoAndCompanyName__companyName__h1 {
+.DivLogoAndCompanyName__h1 {
     font-weight: 700;
     font-size: 24px;
     color: white;
 }
 
-.header__topNavigtion {
+.topNavigtion {
     display: none;
 }
 
 /*---------- Hero section ----------*/
 
-.main__heroImageSection {
+.heroImageSection {
     height: 274px;
-    background: url(Images/main__heroImage.png);
+    background: url(Images/heroImageSection_heroImage.png);
     background-size: cover;
 }
 
 /*---------- CTA button section ----------*/
 
-.main__ctaButtonSection {
+.ctaButtonSection {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 37px;
 }
 
-.main__ctaButtonSection__button {
+.ctaButtonSection__button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -69,16 +69,16 @@
     border-radius: 4px;
 }
 
-.main__ctaButtonSection__button__h3 {
+.ctaButtonSection__onsiteH3 {
     font-size: 24px;
     font-weight: 700;
 }
 
-.main__ctaButtonSection__button.main__ctaButtonSection__onlineButton {
+.ctaButtonSection__button.ctaButtonSection__onlineButton {
     background-color: white;
 }
 
-.main__ctaButtonSection__onlineButton__h3 {
+.ctaButtonSection__onlineH3 {
     font-size: 16px;
     color: #36769D;
     font-weight: 700;
@@ -87,62 +87,62 @@
 
 /*---------- Reference section ----------*/
 
-.main__referenceSection {
+.referenceSection {
     display: flex;
     justify-content: center;
     margin-top: 51px;
     margin-bottom: 105px; 
 }
 
-.main__referenceSection__div {
+.referenceSection__div {
     display: flex;
     flex-direction: row;
     height: 139px;
     margin: 0px 21px;
 }
 
-.main__reference__div__portrait {
+.referenceSection__portrait {
     width: 73px;
     height: 72px;
     border-radius: 50px;
 }
 
-.main__referenceSection__div__text {
+.referenceSection__text {
     margin-left: 22px;
 }
 
-.main__referenceSection__div__text__h3 {
+.referenceSection__h3 {
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
 }
 
-.main__referenceSection__div__text__p {
+.referenceSection__p {
     font-size: 18px;
     font-weight: 400;
     margin-top: 5px;
 }
 
-.main__referenceSection__div.secondReference {
+.referenceSection__div.referenceSection__secondReference {
     display: none;
 }
 
 /*---------- Recommended challenges section ----------*/
 
-.main__recommendedChallenges {
+.recommendedChallenges {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
-.main__recommendedChallanges__h2 {
+.recommendedChallanges__h2 {
     font-size: 32px;
     font-weight: 400;
     margin-bottom: 44px;
 }
 
-.main__recommendedChallenges__slider {
+.recommendedChallenges__slider {
     display: flex;
     width: 100%;
     height: 460px;
@@ -152,12 +152,12 @@
     gap: 30px;
 }
 
-.main__recommendedChallenges__slider::-webkit-scrollbar {
+.recommendedChallenges__slider::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
 
-.main__recommendedChallenges__slider___card {
+.recommendedChallenges___card {
     height: 446px;
     display: flex;
     flex-direction: column;
@@ -165,59 +165,59 @@
     box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.1);
 }
 
-.main__recommendedChallenges__slider___card.main__recommendedChallenges__slider___card__cardOne {
+.recommendedChallenges__card.recommendedChallenges__cardOne {
     margin-left: 52px; 
 }
 
-.main__recommendedChallenges__slider___card.main__recommendedChallenges__slider___card__cardThree {
+.recommendedChallenges__card.recommendedChallenges__cardThree {
     margin-right: 52px; 
 }
 
-.main__recommendedChallenges__slider__card__heroImage {
+.recommendedChallenges__heroImage {
     height: 219px;
 }
 
-.main__recommendedChallenges__slider__card__bottom {
+.recommendedChallenges__bottomBox {
     padding: 12px 17px; 
 }
 
-.main__recommendedChallenges__slider__card__bottom__h3 {
+.recommendedChallenges__h3 {
     font-size: 28px;
     font-weight: 400;
 }
 
-.main__recommendedChallenges__slider__card__bottom__rating {
+.recommendedChallenges__rating {
     display: flex;
     flex-direction: row;
     margin-top: 5px;
     margin-bottom: 23px;
 }
 
-.main__recommendedChallenges__slider__card__bottom__rating__star {
+.recommendedChallenges__star {
     width: 15px;
     height: 15px;
     margin-right: 9px;
 }
 
-.main__recommendedChallenges__slider__card__bottom__rating__participants {
+.recommendedChallenges__participants {
     font-size: 14px;
     font-weight: 400;
     margin-left: 5px;
 }
 
-.main__recommendedChallenges__slider__card__bottom__rating__description {
+.recommendedChallenges__description {
     width: 328px;
     height: 80px;
     font-size: 18px;
     font-weight: 400;
 }
 
-.main__recommendedChallenges__slider__card__bottom__buttonBox {
+.recommendedChallenges__buttonBox {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.main__recommendedChallenges__slider__card__bottom__buttonBox__bookingButton {
+.recommendedChallenges__bookingButton {
     width: 179px;
     height: 44px;
     background-color: #E3170A;
@@ -230,7 +230,7 @@
 
 /*---------- Story section ----------*/
 
-.main__story {
+.story {
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -239,7 +239,7 @@
     margin-top: 35px;
 }
 
-.main__story__h3 {
+.story__h3 {
     font-size: 28px;
     font-weight: 400;
     text-align: center;
@@ -247,7 +247,7 @@
     margin: 95px 21px 0px 21px;  
 }
 
-.main__story__button {
+.story__button {
     width: 308px;
     height: 66px;
     background: #011827;
@@ -261,40 +261,40 @@
 
 /*---------- Features section ----------*/
 
-.main__features__div__imgOne {
+.features__imgOne {
     height: 300px;
-    background: url(Images/main__features__div__imgOne.png);
+    background: url(Images/features__imgOne.png);
     background-size: cover;
 }
 
-.main__features__div__imgTwo {
+.features__imgTwo {
     height: 300px;
-    background: url(Images/main__features__div__imgTwo.png);
+    background: url(Images/features__imgTwo.png);
     background-size: cover;
 }
 
-.main__features__div__description {
+.features__description {
     height: 340px;
     margin: 30px 20px;
 }
 
-.main__features__div__description.descriptionBoxTwo {
+.features__description.features__descriptionBoxTwo {
     height: 400px;
 }
 
-.main__features__div__description__h2 {
+.features__h2 {
     font-size: 32px;
     font-weight: 700;
 }
 
-.main__features__div__description__p {
+.features__p {
     font-size: 24px;
     font-weight: 400;
     margin-top: 25px;
     margin-bottom: 50px;
 }
 
-.main__features__div__description__button {
+.features__button {
     width: 308px;
     height: 66px;
     background: #E3170A;
