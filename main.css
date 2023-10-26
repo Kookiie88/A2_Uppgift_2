@@ -47,6 +47,7 @@
     height: 274px;
     background: url(Images/heroImageSection_heroImage.png);
     background-size: cover;
+    background-position: center;
 }
 
 /*---------- CTA button section ----------*/
@@ -332,7 +333,7 @@
 }
 
 @media (min-width: 1200px) {
-    .main__heroImageDiv {
+    .heroImageSection {
         height: 468px;
     }
 }
