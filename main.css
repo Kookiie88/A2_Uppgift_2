@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'roboto';
 }
 
@@ -31,7 +32,6 @@
 .header__DivLogoAndCompanyName__companyName__h1 {
     font-weight: 700;
     font-size: 24px;
-    line-height: 28.13px;
     color: white;
 }
 
@@ -66,7 +66,6 @@
 .ctaButtonSection__button__h3 {
     font-size: 24px;
     font-weight: 700;
-    line-height: 28.13px;
 }
 
 .ctaButtonSection__button.ctaButtonSection__onlineButton {
@@ -81,8 +80,10 @@
 }
 
 .main__referenceSection {
+    display: flex;
+    justify-content: center;
     margin-top: 51px;
-    margin-bottom: 55px; 
+    margin-bottom: 105px; 
 }
 
 .main__referenceSection__div {
@@ -95,27 +96,25 @@
 }
 
 .main__reference__div__portrait {
-    width: 73.34px;
+    width: 73px;
     height: 72px;
     border-radius: 50px;
 }
 
 .main__referenceSection__div__text {
-    width: 343.26px;
-    margin-left: 22.4px;
+    width: 342px;
+    margin-left: 22px;
 }
 
 .main__referenceSection__div__text__h3 {
     font-size: 24px;
     font-style: italic;
     font-weight: 400;
-    line-height: 28.13px;
 }
 
 .main__referenceSection__div__text__p {
     font-size: 18px;
     font-weight: 400;
-    line-height: 21.09px;
     margin-top: 5px;
 }
 
@@ -123,8 +122,82 @@
     display: none;
 }
 
+.recommendedChallenges {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-/*next section should have top margin of 50px*/
+.recommendedChallanges__h2 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 44px;
+}
+
+.recommendedChallenges__slider___card {
+    width: 363px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.1);
+}
+
+.recommendedChallenges__slider__card__heroImage {
+    width: 363px;
+    height: 219px;
+}
+
+.recommendedChallenges__slider__card__bottom {
+    padding: 12px 17px; 
+}
+
+.recommendedChallenges__slider__card__bottom__h3 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.recommendedChallenges__slider__card__bottom__rating {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2px;
+}
+
+.recommendedChallenges__slider__card__bottom__rating__star {
+    width: 15px;
+    height: 15px;
+    margin-right: 9px;
+}
+
+.recommendedChallenges__slider__card__bottom__rating__participants {
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 5px;
+}
+
+.recommendedChallenges__slider__card__bottom__rating__description {
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 23px;
+}
+
+.recommendedChallenges__slider__card__bottom__buttonBox {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 16px;
+}
+
+.recommendedChallenges__slider__card__bottom__buttonBox__bookingButton {
+    width: 179px;
+    height: 44px;
+    background-color: #E3170A;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
 
 @media (min-width: 1200px) {
     .main__heroImageDiv {
