@@ -8,11 +8,11 @@
 /*---------- Header section ----------*/
 .header {
   background: #011827;
-  height: 144px;
 }
 .header__DivLogoAndCompanyName {
   display: flex;
   flex-direction: row;
+  height: 144px;
 }
 .header__logo {
   width: 128px;
@@ -33,6 +33,7 @@
 }
 .header__topNavigtion {
   display: none;
+  height: 72px;
 }
 
 /*---------- Hero section ----------*/
@@ -91,7 +92,7 @@
 }
 .referenceSection__portrait {
   width: 73px;
-  height: 72px;
+  height: 73px;
   border-radius: 50px;
 }
 .referenceSection__text {
@@ -259,7 +260,6 @@
 /*---------- Footer section ----------*/
 .footer {
   display: flex;
-  height: 566px;
   background: #011827;
 }
 .footer__footerDiv {

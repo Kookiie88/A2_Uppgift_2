@@ -9,11 +9,11 @@
 
 .header {
     background: #011827;
-    height: 144px;
 
     &__DivLogoAndCompanyName {
         display: flex;
         flex-direction: row;
+        height: 144px;
     }
     
     &__logo {
@@ -38,6 +38,7 @@
     
     &__topNavigtion {
         display: none;
+        height: 72px;
     }
 }
 
@@ -98,9 +99,7 @@
         display: flex;
         flex-direction: row;
         margin: 0px 21px;
-    }
 
-    &__div {
         &.referenceSection__secondReference {
             display: none;
         }
@@ -108,7 +107,7 @@
     
     &__portrait {
         width: 73px;
-        height: 72px;
+        height: 73px;
         border-radius: 50px;
     }
     
@@ -166,15 +165,10 @@
         flex-direction: column;
         border-radius: 8px;
         box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
-    }
-
-    &__card {
+        
         &.recommendedChallenges__cardOne {
             margin-left: 52px;
         }
-    }
-    
-    &__card {
         &.recommendedChallenges__cardThree {
             margin-right: 52px;
         }
@@ -306,12 +300,10 @@
     }
 }
 
-
 /*---------- Footer section ----------*/
 
 .footer {
     display:flex;
-    height: 566px;
     background: #011827;
 
     &__footerDiv {
