@@ -12,32 +12,32 @@
     height: 144px;
 }
 
-.DivLogoAndCompanyName {
+.header__DivLogoAndCompanyName {
     display: flex;
     flex-direction: row;
 }
 
-.DivLogoAndCompanyName__logo {
+.header__logo {
     width: 128px;
     height: 82px;
     margin-top: 26px;
     margin-left: 27px;
 }
 
-.DivLogoAndCompanyName__companyName {
+.header__companyName {
     width: 78px;
     height: 84px;
     margin-top: 25px;
     margin-left: 13px;
 }
 
-.DivLogoAndCompanyName__h1 {
+.header__h1 {
     font-weight: 700;
     font-size: 24px;
     color: white;
 }
 
-.topNavigtion {
+.header__topNavigtion {
     display: none;
 }
 
@@ -307,28 +307,28 @@
     background: #011827;
 }
 
-.footerDiv {
+.footer__footerDiv {
     margin: 25px 22px 65px 22px;
 }
 
-.footerDiv__siteMap, .footerDiv__socialMediaLinks {
+.footer__siteMap, .footer__socialMediaLinks {
     display: flex;
     flex-direction: column;
 }
 
-.footerDiv__link, .footerDiv__h3, .footerDiv__p {
+.footer__link, .footer__h3, .footer__p {
     color: white;
     font-size: 18px;
     font-weight: 400;
     text-decoration: none;
 }
 
-.footerDiv__h3 {
+.footer__h3 {
     margin: 40px 0px 7px;
     font-weight: 700;
 }
 
-.footerDiv__link.footer__linkBreak {
+.footer__link.footer__linkBreak {
     margin-top: 18px;
 }
 
