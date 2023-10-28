@@ -6,6 +6,10 @@
     margin-top: 35px;
     padding: 95px 0px;
 
+    @include breakpoint($medium) {
+        padding: 123px 0px 142px 0px;
+    }
+
     &__h3 {
         max-width: 585px;
         font-size: 28px;
@@ -13,6 +17,10 @@
         text-align: center;
         color: white;
         margin: 0px 21px 60px 21px;  
+
+        @include breakpoint($medium) {
+            margin-bottom: 45px;
+        }
     }
     
     &__button {

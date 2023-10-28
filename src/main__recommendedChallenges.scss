@@ -25,9 +25,10 @@
         overflow-x: scroll;
         gap: 30px;
 
-        @include breakpoint(1150px) {
+        @include breakpoint(1200px) {
             overflow-x: unset;
             justify-content: center;
+            gap: 42px;
         }
     }
 
@@ -45,9 +46,17 @@
         
         &.recommendedChallenges--cardOne {
             margin-left: 52px;
+
+            @include breakpoint(1200px) {
+                margin-left: 0px;
+            }
         }
         &.recommendedChallenges--cardThree {
             margin-right: 52px;
+
+            @include breakpoint(1200px) {
+                margin-right: 0px;
+            }
         }
     }
 
