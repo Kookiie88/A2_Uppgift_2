@@ -138,10 +138,10 @@
   border-radius: 8px;
   box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.1);
 }
-.recommendedChallenges__card.recommendedChallenges__cardOne {
+.recommendedChallenges__card.recommendedChallenges--cardOne {
   margin-left: 52px;
 }
-.recommendedChallenges__card.recommendedChallenges__cardThree {
+.recommendedChallenges__card.recommendedChallenges--cardThree {
   margin-right: 52px;
 }
 .recommendedChallenges__bottomBox {
@@ -354,6 +354,6 @@
   margin: 40px 0px 7px;
   font-weight: 700;
 }
-.footer__link.footer__linkBreak {
+.footer__link.footer--linkBreak {
   margin-top: 18px;
 }
