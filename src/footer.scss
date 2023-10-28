@@ -1,15 +1,91 @@
 .footer {
     display:flex;
+    justify-content: center;
     background: #011827;
 
+    @include breakpoint($small) {
+        margin-top: 123px;
+    }
+
+    @include breakpoint($medium) {
+        margin-top: 143px;
+    }
+
+    @include breakpoint($large) {
+        margin-top: 183px;
+    }
+
     &__footerDiv {
+        max-width: 1100px;
+        justify-content: center;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
         margin: 25px 22px 65px 22px;
+
+        @include breakpoint($small) {
+            flex-direction: row;
+            justify-content: space-between;
+            margin: 75px 55px 110px 55px;
+        }
+
+        @include breakpoint($medium) {
+            margin: 100px 100px 130px 100px;
+        }
+
+        @include breakpoint($large) {
+            margin: 146px 200px 174px 108px; /*needs work*/
+        }
     }
     
+    &__companyDescription {
+        width: 439px;
+
+        @include breakpoint($small) {
+            width: 380px;
+        }
+
+        @include breakpoint($medium) {
+            width: 416px;
+        }
+    } 
+
+    &__rightBox {
+        display: flex;
+        flex-direction: column;
+
+        @include breakpoint($small) {
+            flex-direction: row;
+        }
+    }
+
     &__siteMap,
     &__socialMediaLinks {
         display: flex;
         flex-direction: column;
+    }
+
+    &__siteMap {
+
+        @include breakpoint($small) {
+            margin-right: 40px;
+        }
+
+        @include breakpoint($medium) {
+            margin-right: 60px;
+        }
+
+        @include breakpoint(1000px) {
+            margin-right: 100px;
+        }
+
+        @include breakpoint(1100px) {
+            margin-right: 120px;
+        }
+
+        @include breakpoint($large) {
+            margin-right: 143px;
+        }
     }
     
     &__link, 
