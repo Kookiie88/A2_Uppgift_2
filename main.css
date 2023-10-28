@@ -39,6 +39,36 @@
 .header__topNavigtion {
   display: none;
   height: 72px;
+  width: 80%;
+}
+@media screen and (min-width: 750px) {
+  .header__topNavigtion {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media screen and (min-width: 900px) {
+  .header__topNavigtion {
+    gap: 80px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .header__topNavigtion {
+    gap: 116px;
+  }
+}
+.header__link {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+.header__link:hover {
+  color: #8ACFE5;
 }
 
 .heroImageSection {

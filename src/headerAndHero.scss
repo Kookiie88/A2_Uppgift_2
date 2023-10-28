@@ -32,12 +32,42 @@
             font-size: 40px;
         }
     }
-    
+
     &__topNavigtion {
         display: none;
         height: 72px;
+        width: 80%;
+
+        @include breakpoint($small) {
+            display: flex;
+            margin: auto;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+        } 
+
+        @include breakpoint($medium) {
+            gap: 80px;
+        }
+
+        @include breakpoint($large) {
+            gap: 116px;
+        }
+    }
+
+    &__link {
+        font-size: 24px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+            color: #8ACFE5;
+        }
     }
 }
+
 
 .heroImageSection {
     height: 274px;
