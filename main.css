@@ -39,7 +39,6 @@
 .header__topNavigtion {
   display: none;
   height: 72px;
-  width: 80%;
 }
 @media screen and (min-width: 750px) {
   .header__topNavigtion {
@@ -48,12 +47,12 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
   }
 }
 @media screen and (min-width: 900px) {
   .header__topNavigtion {
-    gap: 80px;
+    gap: 100px;
   }
 }
 @media screen and (min-width: 1280px) {

@@ -34,7 +34,6 @@
     &__topNavigtion {
         display: none;
         height: 72px;
-        width: 80%;
 
         @include breakpoint($small) {
             display: flex;
@@ -42,11 +41,11 @@
             flex-direction: row;
             align-items: center;
             justify-content: center;
-            gap: 40px;
+            gap: 60px;
         } 
 
         @include breakpoint($medium) {
-            gap: 80px;
+            gap: 100px;
         }
 
         @include breakpoint($large) {
