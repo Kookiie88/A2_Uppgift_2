@@ -197,6 +197,12 @@
   text-align: center;
   margin-bottom: 44px;
 }
+@media screen and (min-width: 900px) {
+  .recommendedChallenges__h2 {
+    font-size: 36px;
+    margin-bottom: 87px;
+  }
+}
 .recommendedChallenges__slider {
   display: flex;
   width: 100%;
@@ -205,6 +211,12 @@
   justify-content: flex-start;
   overflow-x: scroll;
   gap: 30px;
+}
+@media screen and (min-width: 1150px) {
+  .recommendedChallenges__slider {
+    overflow-x: unset;
+    justify-content: center;
+  }
 }
 .recommendedChallenges__slider::-webkit-scrollbar {
   width: 0;
