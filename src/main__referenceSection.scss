@@ -11,6 +11,10 @@
 
         &.referenceSection__secondReference {
             display: none;
+
+            @include breakpoint($medium) {
+                display: flex;
+            }
         }
     }
     
@@ -35,5 +39,10 @@
         font-size: 18px;
         font-weight: 400;
         margin-top: 5px;
+
+        @include breakpoint($medium) {
+            margin-top: 18px;
+            width: 285px;;
+        }
     }
 }
