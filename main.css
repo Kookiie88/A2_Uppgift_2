@@ -66,7 +66,7 @@
   color: white;
   text-decoration: none;
 }
-.header__link:last-child:hover {
+.header__link:hover {
   color: #8ACFE5;
 }
 
