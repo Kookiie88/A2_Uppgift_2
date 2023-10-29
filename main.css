@@ -328,6 +328,7 @@
 }
 
 .features__div {
+  width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -382,12 +383,12 @@
 }
 @media screen and (min-width: 900px) {
   .features__description {
-    padding: 40px 60px;
+    padding: 35px 60px;
   }
 }
 @media screen and (min-width: 1280px) {
   .features__description {
-    padding: 60px 116px;
+    padding: 55px 116px;
   }
   .features__description.features__descriptionTwo {
     padding: 50px 110px;

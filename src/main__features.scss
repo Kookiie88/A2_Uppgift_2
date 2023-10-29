@@ -1,6 +1,7 @@
 .features {
 
     &__div {
+        width: 100vw;
         display: flex;
         flex-direction: column;
 
@@ -53,11 +54,11 @@
         }
 
         @include breakpoint($medium) {
-            padding: 40px 60px;
+            padding: 35px 60px;
         }
 
         @include breakpoint($large) {
-            padding: 60px 116px;
+            padding: 55px 116px;
 
             &.features__descriptionTwo {
                 padding: 50px 110px;
