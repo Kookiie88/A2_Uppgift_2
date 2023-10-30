@@ -39,7 +39,7 @@
     }
     
     &__companyDescription {
-        width: 436px;
+        width: 100vw;
 
         @include breakpoint($small) {
             width: 380px;
