@@ -346,11 +346,14 @@
 }
 .features__imgOne {
   width: 100vw;
+  height: auto;
+  max-width: 100vw;
   object-fit: cover;
 }
 @media screen and (min-width: 750px) {
   .features__imgOne {
     width: 50vw;
+    max-width: 50vw;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -360,11 +363,14 @@
 }
 .features__imgTwo {
   width: 100vw;
+  max-width: 100vw;
+  height: auto;
   object-fit: cover;
 }
 @media screen and (min-width: 750px) {
   .features__imgTwo {
     width: 50vw;
+    max-width: 50vw;
   }
 }
 @media screen and (min-width: 1280px) {
