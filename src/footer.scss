@@ -18,7 +18,7 @@
     &__footerDiv {
         max-width: 1100px;
         justify-content: center;
-        width: 100%;
+        width: 100vw;
         display: flex;
         flex-direction: column;
         margin: 25px 22px 65px 22px;
@@ -34,7 +34,7 @@
         }
 
         @include breakpoint($large) {
-            margin: 146px 200px 174px 108px; /*needs work*/
+            margin: 146px 200px 174px 108px;
         }
     }
     
