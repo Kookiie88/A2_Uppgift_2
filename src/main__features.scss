@@ -16,12 +16,12 @@
 
     &__imgOne {
         width: 100vw;
-        max-width: 100%;
+        max-width: 100vw;
         object-fit: cover;
         
         @include breakpoint($small) {
             width: 50vw;
-            max-width: 50%;
+            max-width: 50vw;
         }
 
         @include breakpoint($large) {
@@ -31,12 +31,12 @@
     
     &__imgTwo {
         width: 100vw;
-        max-width: 100%;
+        max-width: 100vw;
         object-fit: cover;
 
         @include breakpoint($small) {
             width: 50vw;
-            max-width: 50%;
+            max-width: 50vw;
         }
 
         @include breakpoint($large) {
