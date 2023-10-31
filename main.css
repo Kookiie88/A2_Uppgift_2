@@ -393,6 +393,9 @@ html {
   .features__description {
     padding: 35px 60px;
   }
+  .features__description.features__descriptionTwo {
+    padding: 35px 48.9px;
+  }
 }
 @media screen and (min-width: 1280px) {
   .features__description {

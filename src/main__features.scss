@@ -58,6 +58,11 @@
 
         @include breakpoint($medium) {
             padding: 35px 60px;
+
+            &.features__descriptionTwo {
+                padding: 35px 48.9px;
+            }
+
         }
 
         @include breakpoint($large) {
