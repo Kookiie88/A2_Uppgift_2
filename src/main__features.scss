@@ -84,7 +84,8 @@
     }
     
     &__button {
-        width: 308px;
+        width: 100%;
+        max-width: 308px;
         height: 66px;
         background: #E3170A;
         font-size: 24px;

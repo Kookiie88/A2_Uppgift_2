@@ -24,7 +24,8 @@
     }
     
     &__button {
-        width: 308px;
+        width: 100%;
+        max-width: 308px;
         height: 66px;
         background: #011827;
         border: 2px solid #8ACFE5;

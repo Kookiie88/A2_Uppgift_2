@@ -129,7 +129,8 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 308px;
+  width: 100%;
+  max-width: 308px;
   height: 66px;
   background-color: #8ACFE5;
   border: 0;
@@ -199,7 +200,7 @@ html {
   font-size: 32px;
   font-weight: 400;
   text-align: center;
-  margin-bottom: 44px;
+  margin: 0px 5px 44px 5px;
 }
 @media screen and (min-width: 900px) {
   .recommendedChallenges__h2 {
@@ -321,7 +322,8 @@ html {
   }
 }
 .story__button {
-  width: 308px;
+  width: 100%;
+  max-width: 308px;
   height: 66px;
   background: #011827;
   border: 2px solid #8ACFE5;
@@ -417,7 +419,8 @@ html {
   }
 }
 .features__button {
-  width: 308px;
+  width: 100%;
+  max-width: 308px;
   height: 66px;
   background: #E3170A;
   font-size: 24px;
