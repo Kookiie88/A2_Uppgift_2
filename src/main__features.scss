@@ -22,6 +22,7 @@
         @include breakpoint($small) {
             width: 50vw;
             max-width: 50%;
+            height: 431px;
         }
 
         @include breakpoint($large) {
@@ -37,6 +38,7 @@
         @include breakpoint($small) {
             width: 50vw;
             max-width: 50%;
+            height: 431px;
         }
 
         @include breakpoint($large) {
@@ -58,11 +60,6 @@
 
         @include breakpoint($medium) {
             padding: 35px 60px;
-
-            &.features__descriptionTwo {
-                padding: 35px 48.9px;
-            }
-
         }
 
         @include breakpoint($large) {
