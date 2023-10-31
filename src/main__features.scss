@@ -14,7 +14,8 @@
         }
     }
 
-    &__imgOne {
+    &__imgOne,
+    &__imgTwo {
         width: 100vw;
         max-width: 100%;
         object-fit: cover;
@@ -22,6 +23,9 @@
         @include breakpoint($small) {
             width: 50vw;
             max-width: 50%;
+        }
+
+        @include breakpoint(920px) {
             height: 431px;
         }
 
@@ -29,23 +33,7 @@
             height: 460px;
         }
     }
-    
-    &__imgTwo {
-        width: 100vw;
-        max-width: 100%;
-        object-fit: cover;
 
-        @include breakpoint($small) {
-            width: 50vw;
-            max-width: 50%;
-            height: 431px;
-        }
-
-        @include breakpoint($large) {
-            height: 460px;
-        }
-    }
-    
     &__description {
         display: flex;
         align-items: flex-start;

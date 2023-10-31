@@ -344,37 +344,24 @@ html {
     flex-direction: row-reverse;
   }
 }
-.features__imgOne {
+.features__imgOne, .features__imgTwo {
   width: 100vw;
   max-width: 100%;
   object-fit: cover;
 }
 @media screen and (min-width: 750px) {
-  .features__imgOne {
+  .features__imgOne, .features__imgTwo {
     width: 50vw;
     max-width: 50%;
+  }
+}
+@media screen and (min-width: 920px) {
+  .features__imgOne, .features__imgTwo {
     height: 431px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .features__imgOne {
-    height: 460px;
-  }
-}
-.features__imgTwo {
-  width: 100vw;
-  max-width: 100%;
-  object-fit: cover;
-}
-@media screen and (min-width: 750px) {
-  .features__imgTwo {
-    width: 50vw;
-    max-width: 50%;
-    height: 431px;
-  }
-}
-@media screen and (min-width: 1280px) {
-  .features__imgTwo {
+  .features__imgOne, .features__imgTwo {
     height: 460px;
   }
 }
