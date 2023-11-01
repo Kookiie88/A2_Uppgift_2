@@ -78,4 +78,12 @@
     @include breakpoint($medium) {
         height: 468px;
     }
+
+    @include breakpoint(1300px) {
+        height: 548px;
+    }
+    
+    @include breakpoint(1400px) {
+        height: 648px;
+    }
 }
