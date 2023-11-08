@@ -65,18 +65,21 @@
     }
 
     &__hamburgerMenuContainer {
-        display: none;
+        display: flex;
         align-items: center;
         justify-content: center;
         position: fixed;
         min-width: 100%;
         min-height: 100%;
         top: 0;
-        background-color: rgba(255, 255, 255, 0); 
-        transition: background-color 1s;
+        background-color: rgba(255, 255, 255, 0);
+        opacity: 0;
+        visibility: hidden; 
+        transition: background-color 0.5s, opacity 0.5s, visibility 0.5s;
 
         &.header__hamburgerMenuContainer--open {
-            display: flex;
+            opacity: 1;
+            visibility: visible;
             background-color: rgba(255, 255, 255, 0.5);
         }
     }
@@ -85,6 +88,7 @@
         position: absolute;
         top: 25px;
         right: 25px;
+        cursor: pointer;
 
         @include breakpoint($small) {
             display: none;
@@ -103,13 +107,6 @@
         position: relative;
     }
 
-    /*&__linkInnerDiv {
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        text-align: center;
-    }*/
-
     &__hamburgerLink {
         font-size: 36px;
         font-weight: 700;
@@ -121,6 +118,7 @@
         position: absolute;
         top: 25px;
         right: 25px;
+        cursor: pointer;
     }
 }
 
