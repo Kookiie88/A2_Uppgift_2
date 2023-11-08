@@ -81,10 +81,10 @@ button {
   color: #8ACFE5;
 }
 .header__hamburgerMenuContainer {
+  position: fixed;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
   min-width: 100%;
   min-height: 100%;
   top: 0;
@@ -110,6 +110,7 @@ button {
   }
 }
 .header__hamburgerMenu {
+  position: fixed;
   display: flex;
   top: 23px;
   left: 20px;
@@ -120,7 +121,6 @@ button {
   align-items: center;
   justify-content: center;
   gap: 50px;
-  position: fixed;
 }
 .header__hamburgerLink {
   font-size: 36px;
