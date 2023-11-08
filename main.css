@@ -12,10 +12,20 @@
   overflow: hidden;
 }
 
+button {
+  cursor: pointer;
+}
+
 .header {
   background: #011827;
+  /*&__linkInnerDiv {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      text-align: center;
+  }*/
 }
-.header__divLogoAndCompanyNameInnerDiv {
+.header__divLogoAndCompanyName {
   display: flex;
   flex-direction: row;
   height: 144px;
@@ -76,24 +86,52 @@
 .header__link:hover {
   color: #8ACFE5;
 }
+.header__hamburgerMenuContainer {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  top: 0;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 1s;
+}
+.header__hamburgerMenuContainer.header__hamburgerMenuContainer--open {
+  display: flex;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header__hamburgerButtonOpen {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
 @media screen and (min-width: 750px) {
-  .header__hamburgerButton {
+  .header__hamburgerButtonOpen {
     display: none;
   }
 }
 .header__hamburgerMenu {
-  display: none;
-  position: fixed;
-  top: 0;
-  min-width: 100vw;
-  min-height: 100vh;
+  display: flex;
+  min-width: 93vw;
+  min-height: 96vh;
   background-color: #011827;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 50px;
+  position: relative;
 }
-.header__hamburgerMenu.header__hamburgerMenu--open {
-  display: flex;
+.header__hamburgerLink {
+  font-size: 36px;
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
+}
+.header__hamburgerCloseButton {
+  position: absolute;
+  top: 25px;
+  right: 25px;
 }
 
 .heroImageSection {
