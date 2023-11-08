@@ -1,7 +1,7 @@
 .header {
     background: #011827;
 
-    &__DivLogoAndCompanyName {
+    &__divLogoAndCompanyNameInnerDiv {
         display: flex;
         flex-direction: row;
         height: 144px;
@@ -61,6 +61,28 @@
 
         &:hover {
             color: #8ACFE5;
+        }
+    }
+
+    &__hamburgerButton {
+        @include breakpoint($small) {
+            display: none;
+        }
+    }
+
+    &__hamburgerMenu {
+        display: none;
+        position: fixed;
+        top: 0;
+        min-width: 100vw;
+        min-height: 100vh;
+        background-color: #011827;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        &.header__hamburgerMenu--open {
+            display: flex;
         }
     }
 }

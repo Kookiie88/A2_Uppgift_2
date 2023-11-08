@@ -7,8 +7,11 @@
     font-family: 'roboto';
 }
 
-html {
-    overflow-x: hidden; 
+.html {
+    overflow-x: hidden;
+    &.html--overflowHidden {
+        overflow: hidden;
+    } 
 }
 
 @import 'headerAndHero';

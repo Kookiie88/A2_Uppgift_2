@@ -5,14 +5,17 @@
   font-family: "roboto";
 }
 
-html {
+.html {
   overflow-x: hidden;
+}
+.html.html--overflowHidden {
+  overflow: hidden;
 }
 
 .header {
   background: #011827;
 }
-.header__DivLogoAndCompanyName {
+.header__divLogoAndCompanyNameInnerDiv {
   display: flex;
   flex-direction: row;
   height: 144px;
@@ -72,6 +75,25 @@ html {
 }
 .header__link:hover {
   color: #8ACFE5;
+}
+@media screen and (min-width: 750px) {
+  .header__hamburgerButton {
+    display: none;
+  }
+}
+.header__hamburgerMenu {
+  display: none;
+  position: fixed;
+  top: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #011827;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header__hamburgerMenu.header__hamburgerMenu--open {
+  display: flex;
 }
 
 .heroImageSection {
